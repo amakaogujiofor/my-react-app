@@ -5,15 +5,8 @@ body {
 * {
   box-sizing: border-box;
 }
-.logo {
-  width: 60px;
-}
-h3 {
-  color: #61dafb;
-}
-h4 {
-  color: #deebf8;
-}
+
+/* Typography Styling */
 
 /* Header Styling */
 nav {
@@ -22,4 +15,19 @@ nav {
   background-color: #21222a;
   padding: 30px 25px;
   height: 90px;
+}
+.logo {
+  width: 40px;
+}
+
+nav > h3 {
+  color: #61dafb;
+  margin-right: auto;
+  font-size: 1.5rem;
+}
+
+nav > h4 {
+  color: #deebf8;
+  font-size: 1rem;
+  font-weight: 600;
 }
