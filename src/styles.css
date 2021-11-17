@@ -1,6 +1,7 @@
 body {
   font-family: inter;
   margin: 0;
+  background-color: #282d35;
 }
 * {
   box-sizing: border-box;
@@ -22,7 +23,7 @@ nav {
 
 nav > h3 {
   color: #61dafb;
-  margin-right: auto;
+  /* margin-right: auto; */
   font-size: 1.5rem;
 }
 
@@ -30,4 +31,34 @@ nav > h4 {
   color: #deebf8;
   font-size: 1rem;
   font-weight: 600;
+  margin-left: auto;
+}
+
+.container {
+  color: #ffffff;
+  background-image: url("/src/logo512.png");
+  background-repeat: no-repeat;
+  background-position: 200% center;
+  background-color: #282d35;
+  background-blend-mode: color;
+  background-size: contain;
+}
+
+.title-text {
+  font-weight: 700;
+  margin: 0;
+  padding: 1.5em 0 1em 0.5em;
+  font-size: 2.5rem;
+}
+
+.main-content li {
+  font-size: 1rem;
+  padding: 0 0 1em;
+  margin-left: 1.5em;
+  list-style-type: disc;
+}
+
+.main-content li::marker {
+  color: #61dafb;
+  font-size: 1.6rem;
 }
