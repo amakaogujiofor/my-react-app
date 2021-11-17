@@ -1,0 +1,25 @@
+body {
+  font-family: inter;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.logo {
+  width: 60px;
+}
+h3 {
+  color: #61dafb;
+}
+h4 {
+  color: #deebf8;
+}
+
+/* Header Styling */
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  padding: 30px 25px;
+  height: 90px;
+}
